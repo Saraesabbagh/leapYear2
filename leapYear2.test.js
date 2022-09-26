@@ -10,5 +10,8 @@ describe('leapYear2', () => {
   it('returns false when give a number divisible by 100 but not 400 eg 1700', () => {
     expect(leapYear2(1700)).toBe("false");
   });
+  it('returns false when given a number not divisible by 4, eg 2009', () => {
+    expect(leapYear2(2009)).toBe("false");
+  });
 
 });
