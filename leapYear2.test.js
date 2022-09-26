@@ -13,5 +13,6 @@ describe('leapYear2', () => {
   it('returns false when given a number not divisible by 4, eg 2009', () => {
     expect(leapYear2(2009)).toBe("false");
   });
+  
 
 });
