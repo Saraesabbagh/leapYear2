@@ -5,6 +5,6 @@ describe('leapYear2', () => {
     expect(leapYear2(2000)).toBe("true");
   });
   it('return true when given a number divisible by 4 but not 100 eg 2004', () => {
-    expect(leapYear(2004)).toBe("true");
+    expect(leapYear2(2004)).toBe("true");
   });
 });
