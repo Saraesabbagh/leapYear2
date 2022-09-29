@@ -25,5 +25,5 @@
 - Input-->leapYear2-->output
 - Eg 2000 -->leapYear2---> "true" why (becuuase devisible by 400)
 - Eg 2004-->leapYear2--> "true" why( divisble by 4 and NOT 100)
-- Eg 1700-->leapYear2--> "false" why (divisible by 100 bu tNOT 400)
+- Eg 1700-->leapYear2--> "false" why (divisible by 100 but NOT 400)
 - Eg 2009 -->leapYear2 --> "false" (NOT divisible by 4)
